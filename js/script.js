@@ -9,4 +9,5 @@ elemento.appendChild(contenido);
 //4.- Agregar atributos
 elemento.setAttribute("aling", "center");
 //5.- Agregar el elemento al documento
-document.getElementById("subtitulo").appendChild(elemento);
+//document.getElementById("subtitulo").appendChild(elemento);
+document.body.appendChild(elemento);
